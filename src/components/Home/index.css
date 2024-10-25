@@ -1,0 +1,39 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.techList-container {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  margin: 20px;
+  margin-bottom: 0px;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.retry-button {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #4656a1;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.failure-para {
+  font-family: 'Roboto';
+  color: #475569;
+}

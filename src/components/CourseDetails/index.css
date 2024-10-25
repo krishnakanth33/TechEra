@@ -1,0 +1,46 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  margin: 100px;
+  box-shadow: 10px 10px 8px 10px #bfbfbf;
+  border-radius: 10px;
+}
+
+.course-img {
+  height: 100%;
+}
+
+.course-name {
+  font-family: 'Roboto';
+  padding: 20px;
+}
+
+.course-des {
+  font-family: 'Roboto';
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.retry-button {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #4656a1;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.failure-para {
+  font-family: 'Roboto';
+  color: #475569;
+}

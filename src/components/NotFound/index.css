@@ -1,0 +1,17 @@
+.notfound-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.notfound-img {
+  width: 40%;
+}
+
+p{
+    font-size: 20px;
+    color: #64748b;
+}
